@@ -69,13 +69,13 @@ sql_managed_instance_license_type   = "LicenseIncluded"
 # =============================================================================
 storage_account_tier             = "Standard"
 storage_account_replication_type = "LRS"
-storage_account_allowed_ips = ["x.x.x.x"]
+storage_account_allowed_ips = ["81.2.141.35"]
 
 # =============================================================================
 # Key Vault Configuration
 # =============================================================================
 key_vault_sku_name     = "standard"
-key_vault_allowed_ips  = ["81.2.141.35","x.x.x.x"] # Management workstation / jump-box IP(s)
+key_vault_allowed_ips  = ["81.2.141.35"] # Management workstation / jump-box IP(s)
 
 # =============================================================================
 # DDoS Protection Configuration
