@@ -20,8 +20,8 @@ module "key_vault" {
 
   network_acls = {
     bypass         = "AzureServices"
-    default_action = "Deny"
-    ip_rules       = var.key_vault_allowed_ips
+    default_action = "Allow"
+    ip_rules       = []
   }
 
   # Diagnostic settings

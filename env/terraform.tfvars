@@ -75,7 +75,6 @@ storage_account_allowed_ips = ["81.2.141.35"]
 # Key Vault Configuration
 # =============================================================================
 key_vault_sku_name     = "standard"
-key_vault_allowed_ips  = ["81.2.141.35"] # Management workstation / jump-box IP(s)
 
 # =============================================================================
 # DDoS Protection Configuration
